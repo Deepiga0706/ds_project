@@ -1,0 +1,42 @@
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+.venv/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Archives & Temporary exports
+*.zip
+*.tar.gz
+*.rar
+
+# Large raw & generated datasets exceeding GitHub file limits (>50MB / 100MB)
+# (Retail Rocket raw datasets can be obtained from Kaggle: https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset)
+retail-rocketery/*.csv
+data/retailrocket_ml_anomaly_results.csv
+data/fake_discount_detection_results.csv
+data/retailrocket_fake_discount_features.csv
+data/ml_rule_comparison.csv
+data/retailrocket_price_history.csv
